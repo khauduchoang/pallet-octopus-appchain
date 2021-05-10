@@ -21,6 +21,8 @@ package = 'parity-scale-codec'
 version = '2.0.0'
 
 [dependencies]
+pallet-session = { default-features = false, version = '3.0.0' }
+pallet-octopus-appchain = { default-features = false, git = 'https://github.com/octopus-network/pallet-octopus-appchain.git' }
 frame-support = { default-features = false, version = '3.0.0' }
 frame-system = { default-features = false, version = '3.0.0' }
 pallet-session = { default-features = false, version = '3.0.0' }
@@ -51,4 +53,6 @@ std = [
     'hex/std',
     'lite-json/std',
     'serde',
+    'pallet-session/std',
+    'pallet-octopus-appchain/std',
 ]
