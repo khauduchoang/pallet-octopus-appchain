@@ -20,6 +20,9 @@ hex = { default-features = false, version = '0.4', features = ['alloc'] }
 lite-json = { default-features = false, version = '0.1' }
 log = { version = "0.4.0", default-features = false }
 
+pallet-session = { default-features = false, version = '3.0.0' }
+pallet-octopus-appchain = { default-features = false, git = 'https://github.com/octopus-network/pallet-octopus-appchain.git' }
+
 frame-benchmarking = { default-features = false,  version = "3.1.0", optional = true }
 frame-support = { default-features = false, version = "3.0.0" }
 frame-system = { default-features = false,  version = "3.0.0" }
